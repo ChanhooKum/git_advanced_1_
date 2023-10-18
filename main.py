@@ -20,6 +20,7 @@ even_int_list: A list of even integers.
 Returns:
 The sum of the squares of all even numbers in the list.
 """
+return sum([i**2 for i in even_int_list])
 # TODO: Implement sum_of_squares_of_even
 pass
 # Main function
