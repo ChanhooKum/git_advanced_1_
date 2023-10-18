@@ -8,6 +8,7 @@ int_list: A list of integer.
 Returns:
 A list of even integers.
 """
+return [i for i in int_list if i % 2 == 0]
 # TODO: Implement even_list
 pass
 # Skeleton code for sum_of_squares_of_even
